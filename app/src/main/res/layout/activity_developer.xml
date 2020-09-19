@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mmu_application.Developer"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="15dp"
+        android:background="#7A7E7E7E"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alegreya_sc_bold_italic"
+            android:text="@string/Alumni"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <ImageView
+
+            android:id="@+id/add_logo_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:src="@drawable/logo1" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#70FCABC5"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="About Developer "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#0800FD"
+            android:textSize="25sp"
+            android:layout_marginLeft="30dp"
+            android:layout_centerInParent="true"
+
+
+            />
+
+
+    </RelativeLayout>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+
+        android:layout_margin="20dp"
+
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/vaibhav_pic_id"
+            android:layout_width="275dp"
+            android:layout_height="304dp"
+            android:src="@drawable/vaibhav"
+            app:civ_border_color="#000000"
+            app:civ_border_width="10dp"
+            android:layout_centerHorizontal="true"
+
+            />
+
+        <TextView
+            android:id="@+id/vaibhav_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vaibhav_pic_id"
+android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/amita_bold"
+            android:text="Vaibhav Kumar Mishra"
+            android:textColor="#000000"
+            android:textSize="30sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/role1_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vaibhav_id"
+            android:text="Team Leader ,Backend ,Server , Documentation"
+            android:textColor="#F12516"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+
+            android:layout_centerHorizontal="true"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/role1_id"
+            android:text="vaibhav.kumar.singh.sd@mmumullana.org"
+            android:layout_marginTop="5dp"
+            android:textColor="#00073A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="2dp"
+
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+
+    android:layout_margin="20dp"
+
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/simaranjeet_pic_id"
+        android:layout_width="275dp"
+        android:layout_height="304dp"
+        android:src="@drawable/simran_jeet"
+        app:civ_border_color="#000000"
+        app:civ_border_width="10dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/simaran_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simaranjeet_pic_id"
+
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/amita_bold"
+        android:text="Simaranjeet Singh"
+        android:textColor="#000000"
+        android:textSize="30sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/role2_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simaran_id"
+        android:text="UI Design"
+        android:textColor="#F12516"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/role2_id"
+        android:text="simaranjeet.singh.sd@mmumullana.org"
+        android:layout_marginTop="5dp"
+        android:textColor="#00073A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="2dp"
+
+
+        />
+</RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+            android:layout_margin="20dp"
+
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gurvit_pic_id"
+                android:layout_width="275dp"
+                android:layout_height="304dp"
+                android:src="@drawable/garvit"
+                app:civ_border_color="#000000"
+                app:civ_border_width="10dp"
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <TextView
+                android:id="@+id/gurvit_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gurvit_pic_id"
+
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/amita_bold"
+                android:text="Gurvit Kumar"
+                android:textColor="#000000"
+                android:textSize="30sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/role3_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gurvit_id"
+                android:text="UI Design"
+                android:textColor="#F12516"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+
+
+                />
+
+            <TextView
+                android:id="@+id/email3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/role3_id"
+                android:text="gurvit.kumar.sd@mmumullana.org"
+                android:layout_marginTop="5dp"
+                android:textColor="#00073A"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="2dp"
+
+
+                />
+        </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+            android:layout_margin="20dp"
+
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/mansi_pic_id"
+                android:layout_width="275dp"
+                android:layout_height="304dp"
+                android:src="@drawable/mansi"
+                app:civ_border_color="#000000"
+                app:civ_border_width="10dp"
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <TextView
+                android:id="@+id/mansi_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mansi_pic_id"
+
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/amita_bold"
+                android:text="Mansi"
+                android:textColor="#000000"
+                android:textSize="30sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/role4_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mansi_id"
+                android:text="Testing"
+                android:textColor="#F12516"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+
+
+                />
+
+            <TextView
+                android:id="@+id/email4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/role4_id"
+                android:text="mansi.sd@mmumullana.org"
+                android:layout_marginTop="5dp"
+                android:textColor="#00073A"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="2dp"
+
+
+                />
+        </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+            android:layout_margin="20dp"
+
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/nikhil_pic_id"
+                android:layout_width="275dp"
+                android:layout_height="304dp"
+                android:src="@drawable/nikhil"
+                app:civ_border_color="#000000"
+                app:civ_border_width="10dp"
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <TextView
+                android:id="@+id/nikhil_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nikhil_pic_id"
+
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/amita_bold"
+                android:text="Pasupuleti Nikhil"
+                android:textColor="#000000"
+                android:textSize="30sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/role5_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nikhil_id"
+                android:text="Testing"
+                android:textColor="#F12516"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <TextView
+                android:id="@+id/email5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/role5_id"
+                android:text="pasupuleti.nikhil.sd@mmumullana.org"
+                android:layout_marginTop="5dp"
+                android:textColor="#00073A"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="2dp"
+
+
+                />
+        </RelativeLayout>
+</LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>

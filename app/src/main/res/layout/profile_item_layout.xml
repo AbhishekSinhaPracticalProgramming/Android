@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+android:layout_margin="20dp"
+    app:cardCornerRadius="30dp"
+    android:elevation="5dp"
+
+    >
+    <LinearLayout
+        android:layout_below="@id/profile_pic_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+
+        android:background="#7CFAF1A8"
+        >
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/profile_pic_id"
+    android:layout_margin="10dp"
+
+
+    />
+
+
+
+
+        <TextView
+            android:id="@+id/profile_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/courgette"
+            android:padding="10dp"
+            android:text="Name :  Vaibhab Mishra"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:background="#7E85C7FC"
+            />
+        <TextView
+            android:id="@+id/profile_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/courgette"
+            android:padding="10dp"
+            android:text="email:  vaibhab3oct@gamial.com"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:background="#8AF3A2A2"
+            />
+
+        <TextView
+            android:id="@+id/profile_phone_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/courgette"
+            android:padding="10dp"
+            android:text="Phone :  1234567890"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:background="#7E85C7FC"
+
+            />
+        <TextView
+            android:id="@+id/profile_session_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/courgette"
+            android:padding="10dp"
+            android:text="Session :  2021"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:background="#8AF3A2A2"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

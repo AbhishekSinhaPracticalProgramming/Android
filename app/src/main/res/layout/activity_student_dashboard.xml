@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mmu_application.StudentDashboard"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        app:headerLayout="@layout/menuheader"
+        app:menu="@menu/main_menu"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8FB6B0B0"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/menu_icon_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu_black_24dp"
+
+                />
+
+            <TextView
+                android:id="@+id/dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBottom="@+id/welcome_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:text="Dashboard"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/right_menu_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_power_settings_new_black_24dp"
+                android:elevation="4dp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/signout_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/right_menu_icon"
+
+                android:layout_alignParentRight="true"
+
+                android:text="Sign out"
+
+                android:textColor="#DD2C20"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/welcome_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="15dp"
+                android:layout_centerInParent="true"
+
+                android:text="Welcome"
+
+                android:textColor="#589E00"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#27E98A8A">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/alegreya_sc_bold_italic"
+                android:text="@string/Alumni"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <RelativeLayout
+                android:id="@+id/add_profile_card_id"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="#6BFFF4B3"
+
+                android:elevation="20dp">
+
+                <ImageView
+                    android:id="@+id/alumni_icon"
+                    android:layout_width="131dp"
+                    android:layout_height="115dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/alumni_icon"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/alumni_icon"
+                    android:layout_centerHorizontal="true"
+                    android:text="Our Alumni"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="cursive"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Alumi_card_id"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="#6AD55DB9"
+                android:layout_below="@+id/add_profile_card_id"
+
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/Profile_icon"
+                    android:layout_width="112dp"
+                    android:layout_height="93dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/viewdetails_icon"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Profile_icon"
+                    android:layout_centerHorizontal="true"
+
+                    android:fontFamily="cursive"
+                    android:text="View Alumni's Details"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/postviewS_card_id"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="#A6C4FC84"
+                android:layout_below="@+id/Alumi_card_id"
+
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/Postview_icon"
+                    android:layout_width="112dp"
+                    android:layout_height="93dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/postview1"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Postview_icon"
+                    android:layout_centerHorizontal="true"
+
+                    android:fontFamily="cursive"
+                    android:text="View all posts"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+
+            <CalendarView
+                android:layout_width="168dp"
+                android:layout_height="313dp"
+                android:layout_below="@id/about_developer_card_id"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:background="@drawable/calanderback"
+                android:elevation="5dp"
+                >
+
+            </CalendarView>
+
+            <RelativeLayout
+                android:id="@+id/about_developer_card_id"
+                android:layout_below="@+id/add_Alumni_card_id"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="20dp"
+                android:background="#A198D3F3"
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/About_developer_icon"
+                    android:layout_width="131dp"
+                    android:layout_height="115dp"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/developer_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/About_developer_icon"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="cursive"
+                    android:text="About Developer"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

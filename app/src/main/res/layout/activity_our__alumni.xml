@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mmu_application.Our_Alumni"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="15dp"
+        android:background="#7A7E7E7E"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alegreya_sc_bold_italic"
+            android:text="@string/Alumni"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo1"
+
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#70FCABC5"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Our Alumni "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#0800FD"
+            android:textSize="25sp"
+            android:layout_marginLeft="30dp"
+            android:layout_centerInParent="true"
+
+
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:background="#90F0CF67"
+
+        >
+
+        <ListView
+            android:id="@+id/alumni_listview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#001992"
+            android:dividerHeight="2dp"
+            android:listSelector="#9FF3B0B0"
+            >
+
+
+
+        </ListView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/sample_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="Name :  Vaibhab Mishra"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#7E85C7FC"
+        />
+    <TextView
+        android:id="@+id/sample_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="email:  vaibhab3oct@gamial.com"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#8AF3A2A2"
+        />
+    <TextView
+        android:id="@+id/sample_linkedin_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="LinkedIn :  XXXXXXXXXXX"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#7E85C7FC"
+
+        />
+    <TextView
+        android:id="@+id/sample_phone_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="Phone :  1234567890"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#8AF3A2A2"
+
+        />
+    <TextView
+        android:id="@+id/sample_session_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="Session :  2021"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#7E85C7FC"
+        />
+    <TextView
+        android:id="@+id/sample_company_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="Company :  XXXXXXX"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#8AF3A2A2"
+        />
+    <TextView
+        android:id="@+id/sample_designation_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="Designation :  xxxxxxxxxx"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#7E85C7FC"
+        />
+    <TextView
+        android:id="@+id/sample_berif_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgette"
+        android:padding="10dp"
+        android:text="Berif description :  XXXXXXX"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:fontFamily="@font/cagliostro"
+        android:background="#8AF3A2A2"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sc_bold_italic</item>
+        <item>@font/amita_bold</item>
+        <item>@font/artifika</item>
+        <item>@font/bangers</item>
+        <item>@font/baumans</item>
+        <item>@font/cagliostro</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/courgette</item>
+    </array>
+</resources>

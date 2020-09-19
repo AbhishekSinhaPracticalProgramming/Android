@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:cardCornerRadius="30dp"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_pic_id"
+            android:background="#7CFAF1A8"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/postP_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8F119989"
+                android:fontFamily="@font/courgette"
+                android:padding="10dp"
+                android:text="email:  vaibhab3oct@gamial.com"
+                android:textColor="#000000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/postP_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         android:layout_marginTop="8dp"
+                android:fontFamily="@font/courgette"
+                android:padding="10dp"
+                android:text="Name Vaibhab Mishrakjkjkjkkjk
+            kjkjkjkjkkk
+            kkkkkkkkkkkkkkk
+            kkkkkkk
+            hhhhhhhhhhhhh
+                jkjkjjk
+                jkjkjk"
+                android:textColor="#000000"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>

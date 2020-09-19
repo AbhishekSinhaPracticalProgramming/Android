@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MMU_Application</string>
+    <string name="univ_name">Maharishi Markandeshwar\n\tUniversity</string>
+    <string name="univ_name_sign_in">Maharishi Markandeshwar University</string>
+    <string name="Alumni">Alumni Management \n System</string>
+    <string name="login_As_Alumni">Log in as Student</string>
+    <string name="login_As_Admin">Log in as Admin/Teacher</string>
+    <string name="login_As_Guest">Log in as Guest</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_button">Sign in</string>
+
+    <string name="sign_in_forget">Forget password</string>
+    <string name="enter">Enter your username and password</string>
+</resources>

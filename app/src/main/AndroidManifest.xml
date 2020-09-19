@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mmu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.mmu_application.ViewPost"></activity>
+        <activity android:name="com.example.mmu_application.DropPost" />
+        <activity android:name="com.example.mmu_application.StudentDashboard" />
+        <activity android:name="com.example.mmu_application.Student_Sign_in" />
+        <activity android:name="com.example.mmu_application.Update_Profile" />
+        <activity android:name="com.example.mmu_application.Developer" />
+        <activity android:name="com.example.mmu_application.ViewAlumniProfile" />
+        <activity android:name="com.example.mmu_application.Our_Alumni" />
+        <activity android:name="com.example.mmu_application.Add_alumni" />
+        <activity android:name="com.example.mmu_application.Dashboard" />
+        <activity android:name="com.example.mmu_application.Singn_up" />
+        <activity android:name="com.example.mmu_application.Sign_in" />
+        <activity android:name="com.example.mmu_application.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

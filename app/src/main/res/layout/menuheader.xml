@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/background"
+    android:paddingLeft="15dp"
+    >
+
+    <TextView
+        android:id="@+id/dashboard_username_menuheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="20dp"
+        android:textColor="#1C34B8"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/dashboard_person_profile_id"
+        android:layout_width="114dp"
+        android:layout_height="138dp"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_above="@+id/dashboard_username_menuheader"
+
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="141dp"
+        android:layout_alignParentRight="true"
+
+        android:layout_centerInParent="true"
+        android:paddingRight="15dp"
+        android:src="@drawable/logo1" />
+
+</RelativeLayout>
